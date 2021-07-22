@@ -120,7 +120,7 @@ def recommend():
                     range(len(cast_places))}
 
     sauce = urllib.request.urlopen('https://www.imdb.com/title/{}/reviews?ref_=tt_ov_rt'.format(imdb_id)).read()
-    soup = bs.BeautifulSoup(sauce, 'lxml')
+    soup = bs.BeautifulSoup(sauce, 'html.parser')
     soup_result = soup.find_all("div", {"class": "text show-more__control"})
     soup_result2 = soup.find_all("div", {"class": "ipl-ratings-bar"})
 
