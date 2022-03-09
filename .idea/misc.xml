@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (AJAX-Movie-Recommendation-System-with-Sentiment-Analysis-master)" project-jdk-type="Python SDK" />
+>>>>>>> 938b8966db55dbf148cc3b85e9b65848623ce8b7
   <component name="PyCharmProfessionalAdvertiser">
     <option name="shown" value="true" />
   </component>

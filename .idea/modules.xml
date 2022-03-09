@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Github.iml" filepath="$PROJECT_DIR$/.idea/Github.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis-master.iml" filepath="$PROJECT_DIR$/.idea/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis-master.iml" />
+>>>>>>> 938b8966db55dbf148cc3b85e9b65848623ce8b7
     </modules>
   </component>
 </project>
