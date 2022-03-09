@@ -23,11 +23,11 @@
 	color: #e4e0e0;
 }
 
-/* #content {
+#content {
 	background-image: url("../static/image.jpg");
 	background-color: #181818;
 	font-family: 'Noto Sans JP', sans-serif;
-} */
+}
 
 .autoComplete_result{
 	max-width:55%;
