@@ -32,6 +32,7 @@ new autoComplete({
     },
     onSelection: feedback => {             // Action script onSelection event | (Optional)
         document.getElementById('autoComplete').value = feedback.selection.value;
+        document.getElementById('movie-btn').click();
 
     }
 });
