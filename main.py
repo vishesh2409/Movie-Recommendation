@@ -142,8 +142,4 @@ def recommend():
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
     app.run()
-=======
-    app.run(debug=True)
->>>>>>> 938b8966db55dbf148cc3b85e9b65848623ce8b7
