@@ -45,7 +45,7 @@ def convert_to_list(my_list):
 
 def get_suggestions():
     data = pd.read_csv('main_data.csv')
-    return list(data['movie_title'].str.capitalize())
+    return list(data['movie_title'].str.title())
 
 
 app = Flask(__name__)
@@ -142,4 +142,4 @@ def recommend():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
